@@ -15,10 +15,7 @@ public class Person {
 		 System.out.println(name); 
 		 System.out.println(age);
 		 System.out.println(place);
-		 
-		 
-		
-		}
+		 }
 
 	public static void main(String[] args) {
 		Person obj=new Person();
@@ -33,8 +30,6 @@ public class Person {
         System.out.println(obj.name);
         System.out.println(obj.age);
         System.out.println(obj.place);
-      //////////////////////////////////////////////////
-      //initialize using method
         obj1.name="Arjith";
 		obj1.age=22;
         obj1.place="Attingal";		       

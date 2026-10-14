@@ -43,6 +43,8 @@ public class Vehicle {
 		System.out.println(obj2.type);
 		System.out.println(obj2.millage);
 		System.out.println(obj2.name);
+		Vehicle obj3=new Vehicle();
+		obj.initalize(null, 0, null);
 		
 		}
 
