@@ -17,6 +17,7 @@ public class Vegmeal extends Meal{
 		System.out.println(non1.quantity);  
 		System.out.println(non1.price);
 		System.out.println(non1.nomeat);
+		
     
 	}
 
