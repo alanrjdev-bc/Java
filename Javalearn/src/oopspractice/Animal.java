@@ -24,8 +24,9 @@ public class Animal {
 		this.tail=tail;
 		
 	}
-public static void main(String[] args) {
+    public static void main(String[] args) {
 	Animal sc=new Animal("Cat family",4,"lion",20,"Long tail");
+	System.out.println(sc.toString());
 }
 }
  

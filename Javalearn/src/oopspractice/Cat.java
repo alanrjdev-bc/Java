@@ -10,16 +10,16 @@ public class Cat extends Animal {
 		this.sound=sound;
 		
 	}
+	 @Override
+		public String toString (){
+			return family+legs+name+speed+tail;
+		}
+		
   
 	public static void main(String[] args) {
 	Cat c=new Cat("cat",4,"Tom",10,"Short","Meow");
-	System.out.println(c.family);
-	System.out.println(c.legs);
-	System.out.println(c.name);
-	System.out.println(c.speed);
-	System.out.println(c.tail);
-	System.out.println(c.sound);
-		
+	System.out.println(c);
+	
 	
 		
 }
